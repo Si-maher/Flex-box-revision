@@ -22,6 +22,14 @@ h1  {
     /* align-items: flex-start; */
     /* align-items: flex-end; */
 }
+.container1 {
+    display: flex;
+    /* justify-content: space-between; */
+    /* justify-content: flex-end; */
+    justify-content: space-between;
+    /* justify-content: center; */
+    /* justify-content: space-around; */
+}
 .box1 {
     background-color: bisque;
     flex: 1;
@@ -39,4 +47,11 @@ h1  {
     background-color: blue;
     flex: 1;
     order: 3;
+}
+.box4 {
+    
+    /* width: 20%; */
+    flex-basis: 20%;
+    background-color: cadetblue;
+    align-content: center;
 }
